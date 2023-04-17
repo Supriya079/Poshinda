@@ -89,7 +89,7 @@ public class FarmerSoilTestingFragment extends Fragment {
         fTips.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(),FarmerActivity.class));
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_farmer, new FarmerTipsFragment()).commit();
             }
         });
 

@@ -77,7 +77,9 @@ public class FarmerHomeFragment extends Fragment {
         fTips.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(),FarmerTipsFragment.class));
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_farmer, new FarmerTipsFragment()).commit();
+//                Intent intent = new Intent(getActivity(),FarmerTipsFragment.class);
+//                getActivity().startActivity(intent);
             }
         });
 
