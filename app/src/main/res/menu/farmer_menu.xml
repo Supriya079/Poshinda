@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:visible="true">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item android:id="@+id/recommendedSeed"
+            android:icon="@drawable/ic_seed"
+            android:title="Recommended Seeds" />
+        <item android:id="@+id/govSchemes"
+            android:icon="@drawable/ic_govschemes"
+            android:title="Government Schemes" />
+        <item android:id="@+id/marketPrice"
+            android:icon="@drawable/ic_price"
+            android:title="Market Price" />
+        <item android:id="@+id/soilTesting"
+            android:icon="@drawable/ic_soiltesting"
+            android:title="Soil Testing" />
+        <item android:id="@+id/farmingTips"
+            android:icon="@drawable/ic_farmingtips"
+            android:title="Farming Tips" />
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"/>
+    </group>
+</menu>

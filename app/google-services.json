@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639123602999",
+    "project_id": "poshinda-7af8f",
+    "storage_bucket": "poshinda-7af8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639123602999:android:13d2689c1972ac5d57c9b2",
+        "android_client_info": {
+          "package_name": "com.supriya.poshinda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639123602999-hjn4bqkshrj6he2krm4d8boc4k9nuhft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGsi5QFt_ETmJb8rgNZ-SMA6FdWpjBAYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639123602999-hjn4bqkshrj6he2krm4d8boc4k9nuhft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
